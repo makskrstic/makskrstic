@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marko Krstic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="input/superstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="wrap" >
+<!--HOME-->	
+	<section id="hero" >	
+		<a name="home"></a>
+			<div class="container h-100">
+				<div class="row h-100 align-items-center">
+					<div class="col-12 text-center ">
+						<h1 class="font-weight-light text-focus-in">Marko Krsti&#263;</h1>
+						<h3 class="lead text-focus-in">Web Developer</h3><br><br>
+						<button type="button" class="btn btn-outline-light text-focus-in" onclick="window.location.href = '#projects'">See Projects</button>
+					</div>
+				</div>
+			</div>
+	</section>
+<!--NAV-->
+	<nav >
+		<ul class="flexbox">
+		<li><a href="#home">HOME</a></li><br>
+		<li><a href="#skills">ABOUT</a></li><br>
+		<li><a href="#projects">PROJECTS</a></li><br>
+		<li><a href="#contact">CONTACT</a></li>
+	</ul>
+	</nav>
+<!--ABOUT-->
+	
+	<section class="section"><a name="skills"></a>
+		
+		<h1 class="headers">TECHNICAL SKILLS</h1><br>
+		<div class= "box flexy">
+			
+			<div class="skillbox">
+				<div class="upper"></div>
+				<h1 class="h-big">FRONT<br>END</h1>
+				<p class = "content">HTML<br>CSS<br>JAVASCRIPT<br>JQUERY<br>SASS</p>
+			</div>
+			<div class="skillbox">
+				<div class="upper"></div>
+				<h1 class="h-big">BACK<br>END</h1>
+				<p class = "content">php<br>mysql<br>laravel<br>symfony<br>wordpress<br>magento</p>
+			</div>
+			<div class="skillbox">
+				<div class="upper"></div>
+				<h1 class="h-big">OTHER<br>skills</h1>
+				<p class = "content">git<br>scrum / kanban<br>design patterns<br>adobe photoshop<br>adobe illustrator</p>
+			</div>
+		</div>
+			
+	</section>
+<!--HOME-->
+	<section class="projects section"><a name="projects"></a>
+		<h1 class="headers">PROJECTS</h1><br>
+		
+		<div class= "box flexy">
+
+			<div class = "thingy">
+				<div class = "up2"></div>
+				<h1>NEWS PORTAL</h1>
+				
+				<div class="text-center gif">
+					<img src="pics/canvas2.gif" class="rounded" alt="..." style="width:90%;">
+				</div>
+				
+				<div class="techused">
+					<p>PHP | MySQL | HTML | CSS</p>
+				</div>
+				<div class="button">
+					<button class="btn btn-outline-light">LIVE</button>
+					<button class="btn btn-outline-light">CODE</button>
+				</div>
+			</div>
+			<div class = "thingy">
+				<div class = "up2"></div>
+				<h1>E-SHOP</h1>
+				
+				<div class="text-center gif">
+					<img src="pics/canvas2.gif" class="rounded" alt="..." style="width:90%;">
+				</div>
+				
+				<div class="techused">
+					<p>PHP * MySQL * HTML * CSS</p>
+				</div>
+				<div class="button">
+					<button class="btn btn-outline-light">LIVE</button>
+					<button class="btn btn-outline-light">CODE</button>
+				</div>
+			</div>
+			<div class = "thingy">
+				<div class = "up2"></div>
+				<h1>SPORT CLUB</h1>
+				
+				<div class="text-center gif">
+					<img src="pics/canvas2.gif" class="rounded" alt="..." style="width:90%;">
+				</div>
+				
+				<div class="techused">
+					<p>PHP * MySQL * HTML * CSS</p>
+				</div>
+				<div class="button">
+					<button class="btn btn-outline-light">LIVE</button>
+					<button class="btn btn-outline-light">CODE</button>
+				</div>
+			</div>
+		</div>
+
+	</section>
+<!--CONTACT-->
+	<section class="contact section"><a name="contact"></a>
+		
+		<h1 class="headers">CONTACT</h1><br>
+		<div class="contactus">
+		<form action="mailto:someone@example.com" method="post" enctype="text/plain">	
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Name</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Introduce Yourself">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Email address</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@mail.com">
+			</div>	  
+			<div class="form-group">
+				<label for="exampleFormControlTextarea1">Message</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div><br><br>
+			<button type="submit" class="btn btn-outline-light">SUBMIT</button>
+			<button type="reset" class="btn btn-outline-light">RESET</button>
+			
+			</form></div>
+
+	</section>
+
+	<footer>
+		<img class="arrow" src="pics/arrow-up-bold-hexagon-outline.svg" alt="^" onclick="window.location.href = '#home'" >
+		<div class="flexy links">
+			<a class="footpic" href="https://github.com/makskrstic" target="_blank"><img src="pics/github.svg" alt=""></a>
+			<a class="footpic" href="https://twitter.com/makskrstic" target="_blank"><img src="pics/twitter.svg" alt=""></a>
+			<a class="footpic" href="https://github.com/makskrstic" target="_blank"><img src="pics/linkedin.svg" alt=""></a>
+
+		</div>	
+			<p class="footnote">Marko Krsti&#263; <span class="highlight">&copy; 2020</span> </p>
+		
+	</footer>
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
